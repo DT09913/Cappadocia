@@ -1,0 +1,433 @@
+@import url('//db.onlinewebfonts.com/c/188d1fa8197b9332b368f98b00285a05?family=Balqis');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed';
+    color: #000000;
+    font-size: 12px;
+}
+
+.header {
+    background-image: url('../images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_list li {
+    list-style: none;
+    margin: 30px;
+}
+
+.nav_list a {
+    text-decoration: none;
+    color: #000000;
+
+    transition: 0.5s;
+
+
+}
+
+.nav_list a:hover {
+    text-decoration: underline;
+}
+
+.nav_contact {
+    margin: 30px;
+    color: #000000;
+    text-decoration: none;
+
+    transition: 0.5s;
+}
+
+.nav_contact:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.header_title {
+    position: relative;
+}
+
+.main_title {
+    margin-top: 50px;
+    font-family: 'Balqis';
+    font-size: 180px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main_text {
+    font-size: 50px;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+
+}
+
+.title {
+    font-family: 'Balqis';
+    color: #E2AB3F;
+    font-size: 96px;
+}
+
+.fairy_tail {
+    position: relative;
+}
+
+.fairyTailCarousel {
+    position: absolute;
+    top: 30%;
+}
+
+.fairy_tail_title_descriptions {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.fairy_tail_title {
+    font-family: 'Balqis';
+    color: #E2AB3F;
+    font-size: 96px;
+
+}
+
+.fairy_tail_text_content {
+    margin-top: 50px;
+}
+
+.list_title {
+    font-weight: bold;
+}
+
+.fairy_tail_text_content ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.fairy_tail_content {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.our_trip {
+    position: relative;
+}
+
+.ourTripCarousel {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.our_trip_title_description {
+    position: absolute;
+    top: 14%;
+    left: 25%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.shedule {
+    margin-top: 30px;
+}
+
+.day h3 {
+    font-size: 16px;
+}
+
+.day p {
+    font-size: 12px;
+}
+
+.booking_btn {
+    text-transform: uppercase;
+    border: 2px solid #E2AB3F;
+    border-radius: 2px;
+    padding: 5px 40px;
+    font-size: 12px;
+    margin-top: 20px;
+
+    transition: 0.8s;
+}
+
+.booking_btn:hover {
+    color: white;
+    background: #E2AB3F;
+
+}
+
+.trip_carousel {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hotel {
+    position: relative;
+}
+
+.hotel_title_descriptions {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hotel_preview {
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.balcony_view {
+    width: 100%;
+    height: 100%;
+}
+
+.hotel_preview_pics {
+    width: 250px;
+    height: 130px;
+    margin: 8px;
+}
+
+.preview_pics {
+    margin-top: 80px;
+}
+
+.price {
+    position: relative;
+}
+
+.price_container {
+    position: relative;
+}
+
+.price_title_description {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.price_detail {
+    margin-top: 100px;
+
+}
+
+.included ul {
+    list-style: none;
+    padding: 0;
+}
+
+.included li {
+    margin: 5px 0 5px 0;
+}
+
+.not_included li {
+    margin: 5px 0 5px 0;
+}
+
+.not_included ul {
+    list-style: none;
+    padding: 0;
+}
+
+.prices {
+    margin-top: 200px;
+    position: relative;
+}
+
+.price_img {
+    margin-top: 150px;
+}
+
+.departure_date {
+    font-family: 'Balqis';
+    color: #E2AB3F;
+    font-size: 96px;
+    text-align: center;
+}
+
+.nearest_date {
+    position: absolute;
+    top: 13%;
+    left: 60%;
+
+}
+
+.price_per_person {
+    font-family: 'Balqis';
+    color: #E2AB3F;
+    font-size: 96px;
+    text-align: center;
+}
+
+.total_price {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.balloon1 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.balloon2 {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.balloon3 {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+}
+
+.feedback {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.interactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_name {
+    border: 1px solid #E2AB3F;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px;
+    width: 50%;
+    margin: 10px 0 10px;
+
+}
+
+.input_tel {
+    border: 1px solid #E2AB3F;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px;
+    width: 50%;
+    margin: 10px 0 10px;
+}
+
+.submit_feedback {
+    border: 1px solid #E2AB3F;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px;
+    width: 40%;
+    margin: 10px 0 10px;
+    transition: 0.7s;
+}
+
+.submit_feedback:hover {
+    background-color: #E2AB3F;
+    color: white;
+}
+
+.footer {
+    background-image: url('../images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.footer {
+    margin-top: 200px;
+    position: relative;
+}
+
+
+
+.bg_balloon {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.balloon_bg {
+    width: 220px;
+    height: 350px;
+}
+
+.contact_info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    left: 22%;
+    line-height: 20px;
+}
+
+.contacts {
+    color: #E2AB3F;
+    font-family: 'Balqis';
+    font-size: 50px;
+}
+
+.telephone_num {
+    text-decoration: none;
+    color: #000000;
+}
+
+.email_ad {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+}
+
+
+.social_media img {
+    margin: 0 3px;
+}
+
+.quote {
+    font-family: 'Balqis';
+    font-size: 68px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
